@@ -134,7 +134,7 @@ void main() {
         viewRecords();
         break;
       case '4':
-        print("Exiting program. Goodbye!");
+        print("Exiting program.");
         isRunning = false;
         break;
       default:
