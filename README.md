@@ -17,7 +17,7 @@ This is a Dart console application that manages a Community Learning Center. It 
 * **Error Handling:** Uses `try-catch` blocks to prevent the app from crashing if a user types text when an ID number is required.
 
 ## Sample Test Scenarios
-1. **Valid Input Test:** Register a participant with ID "101" and name "June". The system successfully adds them and displays them in the View Records menu.
+1. **Valid Input Test:** Register a participant with ID "101" and name "Juan". The system successfully adds them and displays them in the View Records menu.
 2. **Invalid Menu Input:** Type "5" or letters in the main menu. The system catches the invalid input and prompts the user to select 1-4 without crashing.
 3. **Error Condition (Try-Catch):** In the Register Participant menu, type a word (like "hello") instead of an ID number. The system catches the format error and prints "Error: Invalid ID. Please enter a valid number."
 
